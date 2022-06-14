@@ -41,7 +41,6 @@ class App extends Component {
     if (page !== prevState.page && page !== 1) {
       this.setState({
         status: 'pending',
-        images: [],
       });
       this.getImages();
       scroll.scrollToBottom();
